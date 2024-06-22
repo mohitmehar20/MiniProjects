@@ -44,11 +44,12 @@ nav {
     flex-wrap: wrap;
     list-style: none;
     gap: 1rem;
+    color: aqua;
 }
 
 .nav-container > li > a {
+    color: aqua;
     text-decoration: none;
-    color:black;
     cursor: pointer;
     transition: all .2s linear;
 }
@@ -165,7 +166,7 @@ h2{
     flex-wrap: wrap;
     padding: 2rem 4rem;
     color: aqua;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .project{
     font-size: .8rem;
