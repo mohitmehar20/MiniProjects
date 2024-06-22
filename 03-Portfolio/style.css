@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite DE Grund",'cursive';
+    
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,15,121,1) 71%, rgba(9,15,121,0.905374649859944) 100%, rgba(0,212,255,1) 100%);
+}
+
+nav {
+    z-index: 10;
+    background: linear-gradient(22deg, rgb(2 0 36) 0%, rgb(9 30 121 / 61%) 71%, rgba(9, 15, 121, 0.905374649859944) 100%, rgba(0, 212, 255, 1) 100%);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 1rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0%;
+    box-shadow: 5px 5px 8px 6px rgb(10 10 25 /18%);
+}
+.logo{
+    margin: 10px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size:larger;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav-container > li > a {
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.nav-container > li > a:hover {
+   font-weight: bolder;
+   color: aliceblue;
+   text-decoration: underline;
+}
+h2{
+    color: aqua;
+    text-align: center;
+    margin: 1.2rem;
+    font-family: "Playwrite DE Grund",'cursive';
+}
+.line{
+    margin: auto;
+    background-color: black;
+    width: 90%;
+    height: 2px;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 5px 5px 8px 6px rgb(10 10 25 / 28%);
+}
+.introduction {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2.5rem;
+
+}
+
+.introduction >div{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: aqua;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.introduction >div> img{
+    margin: auto;
+    border-radius: 40px 0px;
+    width: 100%;
+    box-shadow: 11px 6px 8px 4px rgb(10 10 25 / 28%);
+    /* border: 2px solid aqua; */
+}
+.introduction > p{
+    color: aqua;
+    font-size: 1rem;
+    margin-top: 0px;
+    padding: 1rem;
+    height: fit-content;
+    max-width: 500px;
+    box-shadow: 11px 6px 8px 4px rgb(10 10 25 / 28%);
+}
+.introduction > p>span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.skills {
+    list-style: none;
+    padding: 1rem;
+    gap: 1.5rem;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.skill-card{
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: .9rem;
+    /* border: 2px solid; */
+    padding: 1rem;
+    margin: auto;
+    max-width: 350px;
+    min-width: 303px;
+    min-height: 250px;
+    box-shadow: 11px 6px 8px 4px rgb(10 10 25 / 28%);
+    transition: all .2s linear;
+}
+    
+.skill-card:hover{
+    transform: translateY(-5px);
+}
+.translate{
+    transition: all .2s linear;
+}
+.translate:hover{
+    transform: translateY(-5px);
+
+}
+
+.skill-card >div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-card >div > img{
+    width: 50px ;
+}
+
+.projects-container{
+    margin: 5rem 0rem ;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+    color: aqua;
+    justify-content: space-evenly;
+}
+.project{
+    font-size: .8rem;
+    /* border:2px solid; */
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:12px 8px;
+    padding: 6px;
+    min-width:200px;
+    text-align: center;
+    transition: all .2s linear;
+    box-shadow: 5px 5px 8px 6px rgb(10 10 25 / 28%);
+}
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    
+}
+.image-box{
+    margin: 1rem;
+    max-width: 500px;
+}
+.image-box a{
+    text-decoration: none;
+    color: aqua;
+    display:flex;
+    align-items:center ;
+    gap: .6rem;
+    box-shadow: 5px 5px 8px 6px rgb(10 10 25 / 28%);
+}
+.image-box img{
+    filter: invert(.9);
+    width: 4rem;
+}
