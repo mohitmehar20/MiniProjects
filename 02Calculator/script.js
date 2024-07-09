@@ -94,7 +94,7 @@ function calculate() {
       result = multiply();
       break;
     case "/":
-      result = divide();
+      result = divide().toFixed(4);
       break;
 
     default:
